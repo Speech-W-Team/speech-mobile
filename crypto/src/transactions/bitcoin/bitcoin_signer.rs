@@ -1,4 +1,5 @@
 use k256::ecdsa::{SigningKey, Signature};
+use k256::ecdsa::signature::Signer as K256Signature;
 use crate::transactions::abstract_signer::Signer;
 
 pub struct BitcoinSigner;
